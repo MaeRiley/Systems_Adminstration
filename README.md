@@ -1,4 +1,4 @@
 # Systems_Administration
 
-Scripts and configuration files for various servers I administrate.
+Scripts and configuration templates for various servers I administrate.
 - mae
