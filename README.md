@@ -1,5 +1,5 @@
 # SysAdmin
 
-Scripts and Configurations for various servers I administer. 
+Scripts and configuration files for various servers I administer. 
 
 - mae
