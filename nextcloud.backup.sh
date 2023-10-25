@@ -69,8 +69,8 @@ echo "Backup completed successfully. Files and database are stored in $backup_di
 
 if [ $? -eq 0 ]; then
 
-        echo "Nextcloud backup to Synology completed successfully maintenance mode OFF on $(hostname)" | mail -s "Success Notification" -a "From: example@example.com" email@example.com
+        echo "Nextcloud backup to Synology completed successfully maintenance mode OFF on $(hostname)" | mail -s "Success Notification" -a "From: example@example.com" example@example.com
                 else
-        echo "Nextcloud backup failed to automatically turn off maintenance mode on $(hostname)" | mail -s "Error Notification" -a "From: email@example.com" email@example.com
+        echo "Nextcloud backup failed to automatically turn off maintenance mode on $(hostname)" | mail -s "Error Notification" -a "From: example@example.com" example@example.com
 
 fi
