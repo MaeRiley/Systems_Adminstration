@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 #Backup and backup management script for Nextcloud data and configuration directories
 
