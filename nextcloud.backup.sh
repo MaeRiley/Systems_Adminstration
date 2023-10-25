@@ -67,6 +67,6 @@ if [ $? -eq 0 ]; then
 
         echo "Nextcloud backup to Synology completed successfully on $(hostname)" | mail -s "Success Notification" -a "From: your-email@example.com" your-email@example.com
                 else
-        echo "Your script backup script for Nextcloud encountered an error on $(hostname)" | mail -s "Error Notification" -a "From: your-email@example.com" your-email@example.com
+        echo "Nextcloud backup encountered an error on $(hostname)" | mail -s "Error Notification" -a "From: your-email@example.com" your-email@example.com
 
 fi
